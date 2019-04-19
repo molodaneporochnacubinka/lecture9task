@@ -11,7 +11,7 @@ export class Character {
 
 export class Team {
   constructor() {
-    this.characters = new Set([]);
+    this.characters = new Set();
   }
 
   add(character) {
